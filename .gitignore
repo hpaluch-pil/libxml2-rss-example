@@ -1,0 +1,14 @@
+# Vim files
+*~
+*.swp
+*.tmp
+*.bak
+
+# Eclipse files
+.cproject
+.project
+.settings/
+
+# build files
+parse-rss
+*.o
