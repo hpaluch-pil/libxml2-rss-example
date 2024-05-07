@@ -26,7 +26,7 @@ run: $(APP) dsa.xml
 	./$(APP) dsa.xml
 
 valgrind: $(APP) dsa.xml
-	valgrind ./$(APP) dsa.xml
+	valgrind --leak-check=full ./$(APP) dsa.xml
 
 clean:
 	rm -f -- $(APP) $(APP).o
